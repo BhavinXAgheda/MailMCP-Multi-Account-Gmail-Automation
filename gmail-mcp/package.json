@@ -1,0 +1,24 @@
+{
+  "name": "gmail-mcp-server",
+  "version": "1.0.0",
+  "description": "Production-ready Gmail MCP server with multi-account OAuth2 support",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "auth": "node src/auth/authorize-account.js"
+  },
+  "keywords": [
+    "gmail",
+    "mcp",
+    "oauth2",
+    "googleapis"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "dotenv": "^16.4.5",
+    "googleapis": "^137.1.0",
+    "zod": "^3.23.8"
+  }
+}
